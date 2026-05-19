@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vantiq Media — Websites mit Terminbuchung</title>
+  <meta name="description" content="vantiq Media baut schnelle, schöne Websites mit integrierter Terminbuchung für lokale Unternehmen. Klar, mobil optimiert und günstiger als klassische Agenturen.">
+  <meta property="og:title" content="vantiq Media — Websites mit Terminbuchung">
+  <meta property="og:description" content="Schöne Websites für lokale Unternehmen: schneller Launch, Online-Terminbuchung und faire Kosten.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vantiqmedia.de/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,700..900,80,1&family=Manrope:wght@500;650;750;850;950&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tokens.css?v=2">
+  <link rel="stylesheet" href="vantiqmedia.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <div class="site-shell">
+    <header class="nav" data-nav>
+      <div class="container nav__inner">
+        <a class="brand" href="#top" aria-label="vantiq Media Startseite">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__name" aria-hidden="true"><strong>VANTIQ</strong><span>MEDIA</span></span>
+        </a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>
+          <span aria-hidden="true">☰</span>
+          <span class="sr-only">Navigation öffnen</span>
+        </button>
+        <nav class="nav__links" id="nav-links" data-nav-links aria-label="Hauptnavigation">
+          <a href="#problem">Problem</a>
+          <a href="#system">System</a>
+          <a href="#wert">Wert</a>
+          <a href="#pakete">Pakete</a>
+          <a class="btn btn--dark" href="#kontakt">Projekt anfragen</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero-stage" aria-hidden="true">
+          <div class="vantiq-glyph">
+            <span class="vantiq-glyph__beam vantiq-glyph__beam--blue"></span>
+            <span class="vantiq-glyph__beam vantiq-glyph__beam--silver"></span>
+            <span class="vantiq-glyph__line"></span>
+          </div>
+        </div>
+        <div class="container hero__grid">
+          <div>
+            <p class="eyebrow">VANTIQ MEDIA · Websites mit Terminbuchung</p>
+            <h1>Digitale Auftritte, die Termine bringen.</h1>
+            <p class="hero__copy">Wir bauen moderne Websites für lokale Unternehmen. Schneller, günstiger und direkter als klassische Agenturen: mit Online-Terminbuchung, mobiler Kontaktführung und einer Demo, die Kunden sofort verstehen.</p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#kontakt">Kostenlose Einschätzung holen</a>
+              <a class="btn btn--ghost" href="#wert">Wert berechnen</a>
+            </div>
+            <div class="proof-strip" aria-label="Vorteile">
+              <div class="proof-strip__item">
+                <strong>7-14</strong>
+                <span>Tage bis zur ersten fertigen Website, je nach Inhalt.</span>
+              </div>
+              <div class="proof-strip__item">
+                <strong>24/7</strong>
+                <span>Termine annehmen, auch wenn niemand ans Telefon geht.</span>
+              </div>
+              <div class="proof-strip__item">
+                <strong>-60%</strong>
+                <span>realistisches Sparziel gegenüber vielen Agenturangeboten.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Interaktive Beispielwebsite">
+            <div class="phone">
+              <div class="phone__bar"><span class="phone__speaker"></span></div>
+              <div class="demo-site" data-demo-site style="--demo-image: url('https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80');">
+                <div class="demo-site__hero">
+                  <span class="demo-site__tag" data-demo-tag>Barber</span>
+                  <h2 data-demo-title>Urban Cut Studio</h2>
+                </div>
+                <div class="demo-site__body">
+                  <div class="demo-site__booking" aria-label="Freie Termine">
+                    <span class="slot">09:30</span>
+                    <span class="slot is-active">10:15</span>
+                    <span class="slot">11:00</span>
+                    <span class="slot">14:30</span>
+                    <span class="slot">16:00</span>
+                    <span class="slot">18:15</span>
+                  </div>
+                  <button class="demo-site__cta" type="button">Termin buchen</button>
+                </div>
+              </div>
+            </div>
+            <aside class="value-card" aria-label="Wertversprechen">
+              <div class="value-card__label">Beispiel-Effekt</div>
+              <div class="value-card__number" data-hero-number>18</div>
+              <p>zusätzliche Buchungen pro Monat können bei lokalen Dienstleistern schon den Unterschied machen.</p>
+            </aside>
+            <div class="demo-switcher" aria-label="Branchenbeispiele">
+              <button class="is-active" type="button" data-demo="barber">Bar</button>
+              <button type="button" data-demo="beauty">Bea</button>
+              <button type="button" data-demo="cafe">Café</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="problem">
+        <div class="container">
+          <div class="section__head">
+            <h2>Die meisten kleinen Websites verlieren Kunden, bevor sie verkaufen.</h2>
+            <p>Das Problem ist selten nur Optik. Es ist fehlende Führung: kein klarer nächster Schritt, keine einfache Buchung, keine mobile Priorität.</p>
+          </div>
+          <div class="pain-grid">
+            <article class="pain-card">
+              <span class="pain-card__num">01</span>
+              <h3>Zu passiv</h3>
+              <p>Viele Seiten erklären brav, aber sie führen Besucher nicht aktiv zur Anfrage oder zum Termin.</p>
+            </article>
+            <article class="pain-card">
+              <span class="pain-card__num">02</span>
+              <h3>Zu teuer</h3>
+              <p>Klassische Agenturprojekte sind für lokale Betriebe oft größer, langsamer und teurer als nötig.</p>
+            </article>
+            <article class="pain-card">
+              <span class="pain-card__num">03</span>
+              <h3>Zu umständlich</h3>
+              <p>Kontaktformular, Telefon und Instagram reichen nicht, wenn Kunden sofort einen freien Termin sehen wollen.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="system">
+        <div class="container">
+          <div class="section__head">
+            <h2>Unser System ist simpel: schöne Seite, klare Aktion, direkte Buchung.</h2>
+            <p>Wir bauen keine aufgeblasenen Plattformen. Wir liefern die digitale Verkaufsfläche, die ein lokaler Betrieb wirklich braucht.</p>
+          </div>
+          <div class="solution-grid">
+            <article class="solution-card">
+              <div class="solution-card__icon">1</div>
+              <h3>Branchen-Design</h3>
+              <p>Look und Struktur passend für Barber, Beauty, Café, Fastfood, Handwerk und weitere lokale Betriebe.</p>
+            </article>
+            <article class="solution-card">
+              <div class="solution-card__icon">2</div>
+              <h3>Terminfluss</h3>
+              <p>Online-Buchung sichtbar integriert, damit Besucher nicht suchen, warten oder abspringen.</p>
+            </article>
+            <article class="solution-card">
+              <div class="solution-card__icon">3</div>
+              <h3>Mobile zuerst</h3>
+              <p>Die Seite ist für Smartphone-Kunden gedacht: schnell scannen, verstehen, buchen, anrufen.</p>
+            </article>
+            <article class="solution-card">
+              <div class="solution-card__icon">4</div>
+              <h3>Fairer Launch</h3>
+              <p>Weniger Overhead, weniger Agentur-Theater, klare Umsetzung und planbare Kosten.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="wert">
+        <div class="container calculator">
+          <div class="calculator__panel">
+            <p class="eyebrow">Wert sichtbar machen</p>
+            <h2>Was bringt ein Buchungssystem wirklich?</h2>
+            <div class="control">
+              <label for="bookings">Zusätzliche Buchungen pro Monat <output id="bookings-output">18</output></label>
+              <input id="bookings" type="range" min="4" max="60" value="18">
+            </div>
+            <div class="control">
+              <label for="ticket">Durchschnittlicher Umsatz pro Termin <output id="ticket-output">45 €</output></label>
+              <input id="ticket" type="range" min="20" max="180" step="5" value="45">
+            </div>
+            <div class="checks" aria-label="Website-Bausteine">
+              <label><input type="checkbox" checked data-boost="0"> Mobile Website</label>
+              <label><input type="checkbox" checked data-boost="6"> Online-Terminbuchung</label>
+              <label><input type="checkbox" checked data-boost="4"> Google- und Kontaktführung</label>
+            </div>
+          </div>
+          <div class="calculator__result" aria-live="polite">
+            <h2>Der Wert wird konkret.</h2>
+            <div class="result-list">
+              <div class="result-item">
+                <span>Mehrumsatz pro Monat</span>
+                <strong id="monthly">810 €</strong>
+              </div>
+              <div class="result-item">
+                <span>Mehrumsatz pro Jahr</span>
+                <strong id="yearly">9.720 €</strong>
+              </div>
+              <div class="result-item">
+                <span>Zusätzliche Termine inkl. Hebel</span>
+                <strong id="boosted">28</strong>
+              </div>
+            </div>
+            <div class="result-total">
+              <span>Eine Website muss nicht teuer sein, sie muss arbeiten.</span>
+              <strong id="payback">unter 1 Monat</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>So kann das für eure Branche aussehen.</h2>
+            <p>Keine generische Agenturseite. Jede Website bekommt eine eigene Richtung, aber mit einem erprobten Conversion-Kern.</p>
+          </div>
+          <div class="showcase">
+            <article class="showcase-card">
+              <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=1200&q=80" width="1200" height="900" alt="Moderner Friseursalon mit Stylistin bei der Arbeit">
+              <div class="showcase-card__content">
+                <h3>Beauty & Hair</h3>
+                <p>Warmer Look, hochwertige Bildsprache, Leistungen und Terminbuchung direkt im ersten Scroll.</p>
+              </div>
+            </article>
+            <article class="showcase-card">
+              <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=80" width="1000" height="900" alt="Helles Café mit Tischen und Theke">
+              <div class="showcase-card__content">
+                <h3>Café & Local Food</h3>
+                <p>Menü, Standort, Öffnungszeiten und Reservierung so sichtbar, dass Gäste schnell entscheiden.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Vom ersten Gespräch bis live ohne ewige Agenturschleife.</h2>
+            <p>Unser Vertrieb kann es einfach erklären, weil der Prozess einfach ist.</p>
+          </div>
+          <div class="process">
+            <article class="process__step">
+              <span>01</span>
+              <h3>Check</h3>
+              <p>Wir verstehen Branche, Angebot, Bilder, Preise und wie aktuell Termine entstehen.</p>
+            </article>
+            <article class="process__step">
+              <span>02</span>
+              <h3>Demo</h3>
+              <p>Der Kunde sieht schnell, wie seine neue Seite und Buchung konkret wirken können.</p>
+            </article>
+            <article class="process__step">
+              <span>03</span>
+              <h3>Launch</h3>
+              <p>Texte, Bilder, Kontakt, Buchung und Domain werden sauber zusammengeführt.</p>
+            </article>
+            <article class="process__step">
+              <span>04</span>
+              <h3>Wachstum</h3>
+              <p>Nach dem Livegang optimieren wir die Seite für mehr Anfragen und bessere lokale Wirkung.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pakete">
+        <div class="container pricing-grid">
+          <article class="price-card">
+            <span class="price-card__label">Klassisch</span>
+            <h3>Schöne Website</h3>
+            <p>Für Betriebe, die schnell professionell sichtbar sein wollen.</p>
+            <ul>
+              <li>Moderne Onepage oder kompakte Website</li>
+              <li>Mobile-first Design</li>
+              <li>Kontakt, Leistungen, Standort und Bilder</li>
+              <li>Saubere technische Basis</li>
+            </ul>
+          </article>
+          <article class="price-card price-card--featured">
+            <span class="price-card__label">Empfohlen</span>
+            <h3>Website + Terminbuchung</h3>
+            <p>Für Betriebe, die nicht nur gut aussehen, sondern mehr Termine erzeugen wollen.</p>
+            <ul>
+              <li>Alles aus dem Website-Paket</li>
+              <li>Online-Terminbuchung sichtbar integriert</li>
+              <li>CTA-Struktur für mobile Besucher</li>
+              <li>Launch-Unterstützung für Domain und Inhalte</li>
+              <li>Deutlich günstiger als typische Agenturprojekte</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-band">
+        <div class="container cta-band__inner">
+          <div>
+            <h2>Die Website soll nicht nur da sein. Sie soll Termine bringen.</h2>
+            <p>Wir machen den Nutzen sichtbar, bevor ein Kunde lange über Technik, Seitenanzahl oder Agenturprozesse nachdenken muss.</p>
+          </div>
+          <a class="btn btn--dark" href="#kontakt">Projekt starten</a>
+        </div>
+      </section>
+
+      <section class="section" id="kontakt">
+        <div class="container contact">
+          <div>
+            <p class="eyebrow">vantiqmedia.de ist bereit</p>
+            <h2>Lass uns daraus euren Verkaufsauftritt machen.</h2>
+            <p>Für den ersten echten Launch fehlen nur noch finale Preise, Kontaktweg und ob die Terminbuchung als eigenes Tool oder über integrierte Anbieter starten soll.</p>
+          </div>
+          <form class="contact__form" action="mailto:kontakt@vantiqmedia.de" method="post" enctype="text/plain">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">E-Mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="message">Worum geht es?</label>
+              <textarea id="message" name="message" placeholder="Branche, aktueller Stand, Terminbuchung gewünscht..."></textarea>
+            </div>
+            <button class="btn btn--primary" type="submit">Anfrage senden</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span>© 2026 vantiq Media</span>
+        <span><a href="mailto:kontakt@vantiqmedia.de">kontakt@vantiqmedia.de</a> · vantiqmedia.de</span>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const demos = {
+      barber: {
+        tag: "Barber",
+        title: "Urban Cut Studio",
+        image: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80",
+        number: 18
+      },
+      beauty: {
+        tag: "Beauty",
+        title: "Glow Room",
+        image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=900&q=80",
+        number: 24
+      },
+      cafe: {
+        tag: "Café",
+        title: "Morgenbar",
+        image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80",
+        number: 31
+      }
+    };
+
+    const formatEuro = new Intl.NumberFormat("de-DE", {
+      style: "currency",
+      currency: "EUR",
+      maximumFractionDigits: 0
+    });
+
+    const navToggle = document.querySelector("[data-nav-toggle]");
+    const navLinks = document.querySelector("[data-nav-links]");
+
+    navToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("is-open");
+      navToggle.setAttribute("aria-expanded", String(isOpen));
+      document.body.classList.toggle("is-locked", isOpen);
+    });
+
+    navLinks.addEventListener("click", (event) => {
+      if (event.target.closest("a")) {
+        navLinks.classList.remove("is-open");
+        navToggle.setAttribute("aria-expanded", "false");
+        document.body.classList.remove("is-locked");
+      }
+    });
+
+    document.querySelectorAll("[data-demo]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const demo = demos[button.dataset.demo];
+        document.querySelector("[data-demo-site]").style.setProperty("--demo-image", `url('${demo.image}')`);
+        document.querySelector("[data-demo-tag]").textContent = demo.tag;
+        document.querySelector("[data-demo-title]").textContent = demo.title;
+        document.querySelector("[data-hero-number]").textContent = demo.number;
+        document.querySelectorAll("[data-demo]").forEach((item) => item.classList.toggle("is-active", item === button));
+      });
+    });
+
+    const bookings = document.querySelector("#bookings");
+    const ticket = document.querySelector("#ticket");
+    const bookingOutput = document.querySelector("#bookings-output");
+    const ticketOutput = document.querySelector("#ticket-output");
+    const monthly = document.querySelector("#monthly");
+    const yearly = document.querySelector("#yearly");
+    const boosted = document.querySelector("#boosted");
+    const payback = document.querySelector("#payback");
+    const boosts = document.querySelectorAll("[data-boost]");
+
+    function updateCalculator() {
+      const bookingCount = Number(bookings.value);
+      const ticketValue = Number(ticket.value);
+      const boost = [...boosts].reduce((sum, input) => sum + (input.checked ? Number(input.dataset.boost) : 0), 0);
+      const boostedBookings = bookingCount + boost;
+      const monthlyValue = boostedBookings * ticketValue;
+      const months = Math.max(1, Math.ceil(790 / Math.max(monthlyValue, 1)));
+
+      bookingOutput.textContent = bookingCount;
+      ticketOutput.textContent = formatEuro.format(ticketValue);
+      boosted.textContent = boostedBookings;
+      monthly.textContent = formatEuro.format(monthlyValue);
+      yearly.textContent = formatEuro.format(monthlyValue * 12);
+      payback.textContent = months <= 1 ? "unter 1 Monat" : `${months} Monate`;
+    }
+
+    [bookings, ticket, ...boosts].forEach((input) => input.addEventListener("input", updateCalculator));
+    updateCalculator();
+
+    const canvas = document.querySelector("#hero-canvas");
+    const ctx = canvas.getContext("2d");
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let width = 0;
+    let height = 0;
+    let particles = [];
+    let pointer = { x: 0.5, y: 0.5 };
+
+    function resizeCanvas() {
+      const ratio = Math.min(window.devicePixelRatio || 1, 2);
+      width = canvas.offsetWidth;
+      height = canvas.offsetHeight;
+      canvas.width = width * ratio;
+      canvas.height = height * ratio;
+      ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
+      particles = Array.from({ length: Math.floor(Math.min(width, 1440) / 16) }, () => ({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        vx: (Math.random() - 0.5) * 0.35,
+        vy: (Math.random() - 0.5) * 0.28,
+        r: Math.random() * 1.8 + 0.4,
+        a: Math.random() * 0.6 + 0.18
+      }));
+    }
+
+    function drawCanvas() {
+      ctx.clearRect(0, 0, width, height);
+      const gradient = ctx.createRadialGradient(width * pointer.x, height * pointer.y, 0, width * 0.5, height * 0.45, Math.max(width, height) * 0.72);
+      gradient.addColorStop(0, "rgba(7, 93, 235, 0.24)");
+      gradient.addColorStop(0.32, "rgba(56, 189, 248, 0.09)");
+      gradient.addColorStop(1, "rgba(2, 6, 23, 0)");
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, width, height);
+
+      particles.forEach((point, index) => {
+        if (!reducedMotion) {
+          point.x += point.vx + (pointer.x - 0.5) * 0.06;
+          point.y += point.vy + (pointer.y - 0.5) * 0.05;
+        }
+        if (point.x < -20) point.x = width + 20;
+        if (point.x > width + 20) point.x = -20;
+        if (point.y < -20) point.y = height + 20;
+        if (point.y > height + 20) point.y = -20;
+
+        for (let next = index + 1; next < particles.length; next += 1) {
+          const other = particles[next];
+          const dx = point.x - other.x;
+          const dy = point.y - other.y;
+          const distance = Math.hypot(dx, dy);
+          if (distance < 118) {
+            ctx.strokeStyle = `rgba(120, 180, 255, ${0.12 * (1 - distance / 118)})`;
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(point.x, point.y);
+            ctx.lineTo(other.x, other.y);
+            ctx.stroke();
+          }
+        }
+
+        ctx.fillStyle = `rgba(226, 236, 255, ${point.a})`;
+        ctx.beginPath();
+        ctx.arc(point.x, point.y, point.r, 0, Math.PI * 2);
+        ctx.fill();
+      });
+
+      if (!reducedMotion) requestAnimationFrame(drawCanvas);
+    }
+
+    window.addEventListener("resize", resizeCanvas);
+    window.addEventListener("pointermove", (event) => {
+      pointer = {
+        x: event.clientX / Math.max(window.innerWidth, 1),
+        y: event.clientY / Math.max(window.innerHeight, 1)
+      };
+    });
+    resizeCanvas();
+    drawCanvas();
+  </script>
+</body>
+</html>
