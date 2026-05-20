@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" role="img" aria-labelledby="title desc">
+  <title id="title">VANTIQ Media Logo</title>
+  <desc id="desc">VANTIQ Media wordmark with blue and silver abstract mark.</desc>
+  <defs>
+    <linearGradient id="blueBeam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1688ff"/>
+      <stop offset=".48" stop-color="#0051d8"/>
+      <stop offset="1" stop-color="#020b3b"/>
+    </linearGradient>
+    <linearGradient id="silverBeam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".45" stop-color="#dfe5ef"/>
+      <stop offset=".78" stop-color="#8a94a6"/>
+      <stop offset="1" stop-color="#f7fbff"/>
+    </linearGradient>
+    <linearGradient id="letterShine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07112d"/>
+      <stop offset=".44" stop-color="#0c1a48"/>
+      <stop offset=".5" stop-color="#f2f6ff"/>
+      <stop offset=".56" stop-color="#0c1a48"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="accentLetter" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2f8f"/>
+      <stop offset=".5" stop-color="#1887ff"/>
+      <stop offset="1" stop-color="#04195c"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(306 18)">
+    <polygon points="0 0 72 0 218 238 168 293" fill="url(#blueBeam)"/>
+    <polygon points="234 282 520 0 520 338 468 338 468 143 258 338" fill="url(#silverBeam)"/>
+  </g>
+  <g fill="none" stroke-linecap="square" stroke-linejoin="miter" stroke-width="19">
+    <path d="M44 386 L92 486 L140 386" stroke="url(#letterShine)"/>
+    <path d="M212 486 L262 386 L312 486 M232 448 L292 448" stroke="url(#accentLetter)"/>
+    <path d="M394 486 L394 386 L504 486 L504 386" stroke="url(#letterShine)"/>
+    <path d="M584 386 L704 386 M644 386 L644 486" stroke="url(#letterShine)"/>
+    <path d="M762 386 L762 486" stroke="url(#letterShine)"/>
+    <path d="M842 436 C842 406 819 386 789 386 C759 386 736 407 736 436 C736 466 759 486 789 486 C805 486 818 481 828 471 M817 463 L854 500" stroke="url(#letterShine)"/>
+  </g>
+  <text x="320" y="548" fill="#0b2b87" font-family="Montserrat, Manrope, Arial, sans-serif" font-size="49" font-weight="500" letter-spacing="38">MEDIA</text>
+  <g stroke="url(#accentLetter)" stroke-width="3">
+    <line x1="58" y1="522" x2="238" y2="522"/>
+    <line x1="648" y1="522" x2="828" y2="522"/>
+  </g>
+</svg>
