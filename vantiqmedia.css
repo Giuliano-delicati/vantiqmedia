@@ -101,9 +101,11 @@ textarea {
 }
 
 .brand__logo {
-  width: 132px;
+  width: 118px;
+  max-height: 78px;
   height: auto;
   display: block;
+  object-fit: contain;
 }
 
 .brand__mark {
