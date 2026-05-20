@@ -1101,6 +1101,10 @@ h1 {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+
+  .hero-paths path {
+    animation: none !important;
+  }
 }
 
 /* 2brands-inspired VANTIQ direction: immersive dark hero, pill nav, active value demo. */
@@ -1354,6 +1358,7 @@ h1 {
 }
 
 .hero-canvas,
+.hero-paths,
 .hero-stage {
   position: absolute;
   inset: 0;
@@ -1366,11 +1371,65 @@ h1 {
   height: 100%;
 }
 
-.hero-stage {
+.hero-paths {
   z-index: 1;
+  overflow: hidden;
+  opacity: 0.46;
+  mix-blend-mode: screen;
+  mask-image: radial-gradient(circle at center, black 0 42%, transparent 82%);
+}
+
+.hero-paths svg {
+  width: 140%;
+  height: 118%;
+  margin-left: -20%;
+  margin-top: -5%;
+  color: color-mix(in srgb, var(--ink-50) 68%, var(--brand));
+}
+
+.hero-paths path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 0.9;
+  stroke-linecap: round;
+  stroke-dasharray: 180 280;
+  animation: pathFlow 22s linear infinite;
+}
+
+.hero-paths path:nth-child(2n) {
+  animation-duration: 27s;
+  opacity: 0.76;
+}
+
+.hero-paths path:nth-child(3n) {
+  animation-duration: 31s;
+  stroke-width: 1.25;
+  opacity: 0.58;
+}
+
+.hero-paths path:nth-child(4n) {
+  animation-direction: reverse;
+}
+
+@keyframes pathFlow {
+  0% {
+    stroke-dashoffset: 0;
+    opacity: 0.22;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    stroke-dashoffset: -460;
+    opacity: 0.22;
+  }
+}
+
+.hero-stage {
+  z-index: 2;
   display: grid;
   place-items: center;
-  opacity: 0.78;
+  opacity: 0.66;
   filter: drop-shadow(0 0 58px color-mix(in srgb, var(--brand) 38%, transparent));
 }
 
@@ -1476,6 +1535,16 @@ h1 {
   .vantiq-glyph {
     width: 118vw;
     transform: translateY(-19vh);
+  }
+
+  .hero-paths {
+    opacity: 0.34;
+  }
+
+  .hero-paths svg {
+    width: 220%;
+    height: 100%;
+    margin-left: -60%;
   }
 
   .hero h1 {
